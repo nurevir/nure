@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+h1 {
+    margin: 0;
+}
+
+#rosa_txt{
+   color: rgb(209, 135, 162);;
+}
+
+.treord {
+    color: rgb(109, 109, 109);
+    text-transform: uppercase;
+}
+main {
+    padding: 2rem;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+
+    color: white;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin: 10px;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+section#games {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.game {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.game a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.game h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: white
+}
+
+.spm {
+    background-color: rgb(195, 188, 234);
+}
+
+
+.aldri {
+    background-color: rgb(238, 177, 188);
+}
+
+.kalas {
+    background-color:rgb(255, 177, 162);
+}
+
+
+.karaoke {
+    background-color: rgb(243, 235, 165);
+}
+
+.txt_karaoke{
+    background-color: rgb(243, 235, 165);
+
+}
+
+
+
+.truth {
+    background-color:#c0dfae;
+}
+
+.do {
+    background-color: rgb(163, 194, 241);
+}
+
+
+@media (max-width: 600px) {
+    section#games {
+        grid-template-columns: 1fr;
+    }
+
+    .game {
+        padding: 1rem;
+    }
+
+    .game i {
+        font-size: 1.5rem;
+    }
+
+    .game h2 {
+        font-size: 1.25rem;
+    }
+    
+}
+
+p {
+    margin: 0.5em 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 0.5em 0;
+}
+
+
